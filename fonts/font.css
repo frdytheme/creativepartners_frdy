@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+/* noto-sans-kr-100 - latin_korean */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Noto Sans KR'),
+         url('./noto-sans-kr-v27-latin_korean-100.woff2') format('woff2'),
+         url('./noto-sans-kr-v27-latin_korean-100.woff') format('woff'); }
+  /* noto-sans-kr-300 - latin_korean */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Noto Sans KR'),
+         url('./noto-sans-kr-v27-latin_korean-300.woff2') format('woff2'),
+         url('./noto-sans-kr-v27-latin_korean-300.woff') format('woff'); }
+     /* noto-sans-kr-400 - latin_korean */
+     @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: local('Noto Sans KR'),
+          url('./noto-sans-kr-v27-latin_korean-regular.woff2') format('woff2'),
+          url('./noto-sans-kr-v27-latin_korean-regular.woff') format('woff'); }
+  /* noto-sans-kr-500 - latin_korean */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Noto Sans KR'),
+         url('./noto-sans-kr-v27-latin_korean-500.woff2') format('woff2'),
+         url('./noto-sans-kr-v27-latin_korean-500.woff') format('woff'); }
+  /* noto-sans-kr-700 - latin_korean */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Noto Sans KR'),
+         url('./noto-sans-kr-v27-latin_korean-700.woff2') format('woff2'),
+         url('./noto-sans-kr-v27-latin_korean-700.woff') format('woff'); }
+  /* noto-sans-kr-900 - latin_korean */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Noto Sans KR'),
+         url('./noto-sans-kr-v27-latin_korean-900.woff2') format('woff2'),
+         url('./noto-sans-kr-v27-latin_korean-900.woff') format('woff'); }
+    /* poppins - 100 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-100.woff2') format('woff2'),
+       url('./poppins-v20-latin-100.woff') format('woff') }
+    /* poppins - 200 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-200.woff2') format('woff2'),
+       url('./poppins-v20-latin-200.woff') format('woff') }
+    /* poppins - 300 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-300.woff2') format('woff2'),
+       url('./poppins-v20-latin-300.woff') format('woff') }
+    /* poppins - 400 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-regular.woff2') format('woff2'),
+       url('./poppins-v20-latin-regular.woff') format('woff') }
+    /* poppins - 500 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-500.woff2') format('woff2'),
+       url('./poppins-v20-latin-500.woff') format('woff') }
+    /* poppins - 600 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-600.woff2') format('woff2'),
+       url('./poppins-v20-latin-600.woff') format('woff') }
+    /* poppins - 700 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-700.woff2') format('woff2'),
+       url('./poppins-v20-latin-700.woff') format('woff') }
+    /* poppins - 800 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-800.woff2') format('woff2'),
+       url('./poppins-v20-latin-800.woff') format('woff') }
+    /* poppins - 900 latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./poppins-v20-latin-900.woff2') format('woff2'),
+       url('./poppins-v20-latin-900.woff') format('woff') }
+    /* red-hat-display-regular */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./red-hat-display-v14-latin-regular.woff2') format('woff2'),
+       url('./red-hat-display-v14-latin-regular.woff') format('woff') }
+    /* red-hat-display-500 */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./red-hat-display-v14-latin-500.woff2') format('woff2'),
+       url('./red-hat-display-v14-latin-500.woff') format('woff') }
+    /* red-hat-display-600 */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./red-hat-display-v14-latin-600.woff2') format('woff2'),
+       url('./red-hat-display-v14-latin-600.woff') format('woff') }
+    /* red-hat-display-700 */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./red-hat-display-v14-latin-700.woff2') format('woff2'),
+       url('./red-hat-display-v14-latin-700.woff') format('woff') }
+    /* red-hat-display-800 */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./red-hat-display-v14-latin-800.woff2') format('woff2'),
+       url('./red-hat-display-v14-latin-800.woff') format('woff') }
+    /* red-hat-display-900 */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Poppins'),
+       url('./red-hat-display-v14-latin-900.woff2') format('woff2'),
+       url('./red-hat-display-v14-latin-900.woff') format('woff') }
