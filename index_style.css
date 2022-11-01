@@ -1,0 +1,63 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.art1 .box1 {
+  width: 668px;
+  background-color: #f3f6f9;
+  float: left;
+}
+.art1 .box1 h2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 32px;
+  color: #000;
+}
+.art1 .box1 h3 {
+  font-weight: 700;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+.art1 .box1 p {
+  font-weight: 300;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  color: #424242;
+}
+.art1 .box1 ul li {
+  float: left;
+  width: 306px;
+  padding: 12px 14px;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  margin: 12px 14px;
+  float: left;
+}
+.art1 .box1 ul li img {
+  float: left;
+}
+.art1 .box1 ul li .minbox {
+  width: 162px;
+  float: left;
+  padding: 7.5px 0;
+}
+.art1 .box1 ul li p {
+  font-weight: 300;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  color: #727272;
+}
+.art1 .box1 ul li h4 {
+  font-weight: 500;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+.art1 .box2 {
+  float: left;
+}

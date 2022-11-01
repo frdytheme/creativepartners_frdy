@@ -1,0 +1,95 @@
+@mixin artTitle {
+  font: {
+    weight: 700;
+    family: "Red Hat Display", sans-serif;
+    size: 32px;
+  }
+    color: #000;
+}
+@mixin artSubTitle {
+  font: {
+    weight: 700;
+    family: "Noto Sans KR", sans-serif;
+    size: 18px;
+  }
+    color: #333;
+}
+@mixin artTxt {
+  font: {
+    weight: 300;
+    family: "Noto Sans KR", sans-serif;
+    size: 14px;
+  }
+    color: #424242;
+}
+@mixin boxTxt {
+  font: {
+    weight: 300;
+    family: "Noto Sans KR", sans-serif;
+    size: 14px;
+  }
+    color: #727272;
+}
+@mixin boxTitle {
+  font: {
+    weight: 500;
+    family: "Noto Sans KR", sans-serif;
+    size: 20px;
+  }
+    color: #333;
+}
+
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.art1 {
+  .box1 {
+    width: 668px;
+    background-color: #f3f6f9;
+    float: left;
+    h2 {
+      margin-bottom: 40px;
+      @include artTitle;
+    }
+    h3 {
+      @include artSubTitle
+    }
+    p {
+      @include artTxt
+    }
+    ul {
+      li {
+        float: left;
+        width: 306px;
+        padding: 12px 14px;
+        background-color: #fff;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+        border-radius: 5px;
+        margin: 12px 14px;
+        float: left;
+        img {
+          float: left;
+        }
+        .minbox {
+          width: 162px;
+          float: left;
+          padding: 7.5px 0;
+        }
+        p {
+          @include boxTxt
+        }
+        h4 {
+          @include boxTitle
+        }
+      }
+    }
+  }
+  .box2 {
+    float: left;
+  }
+}
