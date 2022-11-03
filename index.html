@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hello, This is team1_camelCase's project">
   <meta name="keywords" content="웹, website, camelCase, team1_project, 크리에이티브파트너스, creativepartners">
 
@@ -22,8 +22,6 @@
   <meta property ="og:description" content="Hello, This is team1_camelCase's project">
   <meta property ="og:type" content="website">
 
-  <!-- <link rel="stylesheet" href="footer.css"> -->
-
   <!-- style.css -->
   <link rel="stylesheet" href="index_style.css">
 </head>
@@ -37,25 +35,26 @@
       <a href="#" id="head_menu">
         <img src="./images/header_img/front_menuicon.png" alt="메뉴">
       </a>
+
+    <!-- 우측 하단 상담 -->
+    <a href="#" id="charIcon"></a>
       
     <div class="wrapper">
       <video src="./images/header_img/main_7.mp4" muted autoplay loop></video>
       <div class="txt_front">
         <p>You create, We support.<br>We Are Creative Partners.</p>
         <ul id="gnb">
-            <li><a href="./aboutus" id="about"></a></li>
-            <li><a href="./service" id="service"></a></li>
-            <li><a href="./client" id="client"></a></li>
+            <li><a href="./aboutus.html" id="about"></a></li>
+            <li><a href="./service.html" id="service"></a></li>
+            <li><a href="./client.html" id="client"></a></li>
             <li><a href="https://blog.creativepartners.co.kr" target="_blank" id="blog"></a></li>
-            <li><a href="./contact" id="contact"></a></li>
+            <li><a href="contact.html" id="contact"></a></li>
         </ul>
       </div>
     </div>
   </header>
-  <!-----------------------------------------------header-------------------------------------------------->
 
 
-  <!-----------------------------------------------main-------------------------------------------------->
   <main>
     <article class="art1 clearfix">
       <div class="container  clearfix">
@@ -251,41 +250,67 @@
       <div class="wrapper">
         <div class="box1">
           <h2>NEWS LETTER</h2>
-          <div class="container">
+          <div class="container clearfix">
             <img src="./images/mainPage_img/article5_img1.jpg" alt="전문가가 알려주는 크리에이터 스타트업 이야기">
             <div class="txt">
               <h3>
                 Vol. 대표님께만 알려드리는 특별한 추가 절세 방법
               </h3>
               <p>
-                고용증대세액공제에 대해 들어보셨나요? 직원 고&middot;&middot;&middot;
+                고용증대세액공제에 대해 들어보셨나요? 직원&middot;&middot;&middot;
               </p>
-              <a href="#">최신 뉴스레터 보기</a>
+              <a href="https://stibee.com/api/v1.0/emails/share/EBkMUTeQ0TDgNiXxhrvDmrAJYi1Mcg==" target="_blank">최신 뉴스레터 보기</a>
             </div>
           </div>
           <div class="follow">
-            <h6>매 월 새로운 정보가 궁금하다면?</h6>
-            <h3>크파레터 신청하기</h3>
-            <a href="#">구독하기</a>
+            <div class="box">
+              <h6>매 월 새로운 정보가 궁금하다면?</h6>
+              <h3>크파레터 신청하기</h3>
+            </div>
+            <a href="https://page.stibee.com/subscriptions/103562" target="_blank">구독하기</a>
           </div>
         </div>
         <div class="box2">
           <h2>INSTAGRAM</h2>
           <ul class="instagramBox">
-            <li><a href="">1</a></li>
-            <li><a href="">2</a></li>
-            <li><a href="">3</a></li>
-            <li><a href="">4</a></li>
-            <li><a href="">5</a></li>
-            <li><a href="">6</a></li>
+            <li>
+              <a href="https://www.instagram.com/p/CWkiQ7eFKdN/" target="_blank">
+                <img src="./images/mainPage_img/article5_insta1.webp" alt="인스타 이미지1">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/CWkiQ7eFKdN/" target="_blank">
+                <img src="./images/mainPage_img/article5_insta2.webp" alt="인스타 이미지2">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/CWkiNTplUuT/" target="_blank">
+                <img src="./images/mainPage_img/article5_insta3.webp" alt="인스타 이미지3">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/CWkiKmFlinh/" target="_blank">
+                <img src="./images/mainPage_img/article5_insta4.webp" alt="인스타 이미지4">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/CWkiG5ZFLaD/" target="_blank">
+                <img src="./images/mainPage_img/article5_insta5.webp" alt="인스타 이미지5">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/CWkiBa8lp19/" target="_blank">
+                <img src="./images/mainPage_img/article5_insta6.webp" alt="인스타 이미지6">
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </article>
   </main>
 
-  <!-----------------------------------------------footer-------------------------------------------------->
-  <!-- <footer class="clearfix">
+
+  <footer class="clearfix">
     <div class="wrapper clearfix">
       <div class="footbox footbox1">
         <a href="./contact.html" class="footlogo">
@@ -313,17 +338,17 @@
           <ul class="footSns clearfix">
             <li>
               <a href="https://www.facebook.com/for2creative" target="_blank">
-                <img src="./images/footer_img/🦆 icon _Facebook F_.png" alt="페이스북 아이콘">
+                <img src="./images/footer_img/icon _Facebook.png" alt="페이스북 아이콘">
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/creative_partners/" target="_blank">
-                <img src="./images/footer_img/🦆 icon _Instagram_.png" alt="인스타 아이콘">
+                <img src="./images/footer_img/icon _Instagram_.png" alt="인스타 아이콘">
               </a>
             </li>
             <li>
               <a href="https://www.youtube.com/channel/UCldtxzrfuCnu8_CisxeYjrQ" target="_blank">
-                <img src="./images/footer_img/🦆 icon _YouTube_.png" alt="유튜브 아이콘">
+                <img src="./images/footer_img/icon _YouTube_.png" alt="유튜브 아이콘">
               </a>
             </li>
             <li>
@@ -343,10 +368,10 @@
     </div>
     <div class="copy clearfix">
       <div class="wrap">
-        <p>COPYRIGHT 2021. CREATIVE PARTNERS. ALL Rights Reserved.</p>
+        <p>COPYRIGHT 2021. CREATIVE PARTNERS. All Rights Reserved.</p>
         <a href="./index.html">TOP</a>
       </div>
     </div>
-  </footer> -->
+  </footer>
 </body>
 </html>

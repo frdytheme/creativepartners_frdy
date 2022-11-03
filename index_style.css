@@ -7,7 +7,28 @@
 
 body {
   /* 오른쪽 여백 삭제용 */
+  font-family: 'Noto Sans KR', 'Red Hat Display', 'Poppins', sans-serif;
   min-width: 1569px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-family: 'Red Hat Display' , sans-serif;
+  font-size: 48px;
+  color: #000;
+}
+h3 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #333;
+
+    margin-bottom: 15px;
 }
 
 
@@ -30,9 +51,19 @@ header #head_menu {/*버튼*/
   z-index: 9998;
 }
 
+header #charIcon { /* 버튼2 */
+  position: fixed;
+  bottom: 1.5%; right: 1.5%;
+  width: 60px; height: 60px;
+  background: #ddd url(./images/mainPage_img/charIcon.png) no-repeat center / 80%;
+  border-radius: 42%;
+  display: block;
+  z-index: 9997;
+}
+
 header #head_menu:hover {
   background-color: #003DAB;
-  content: url(./images/header_img/front_menuicon2.png);
+  content: url(./images/header_img/front_menuicon_hover.png);
 }
 
 header .wrapper {
@@ -75,7 +106,6 @@ header #gnb a {
 }
 header #gnb a:hover {
   font-size: 58px;
-  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.4);
 }
 
 header .wrapper #gnb #about::before {
@@ -144,24 +174,9 @@ header #gnb li:nth-of-type(5) a{
   padding: 12px;
   float: left;
 }
-.art1 .container .box1 h2 {
-  margin-bottom: 40px;
-  font-weight: 700;
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 48px;
-  color: #000;
-}
-.art1 .container .box1 h3 {
-  margin-bottom: 15px;
-  font-weight: 700;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 22px;
-  color: #333;
-}
 .art1 .container .box1 p {
   margin-bottom: 40px;
   font-weight: 300;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
   color: #424242;
 }
@@ -189,13 +204,11 @@ header #gnb li:nth-of-type(5) a{
 }
 .art1 .container .box1 ul li h5 {
   font-weight: 400;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 14px;
   color: #727272;
 }
 .art1 .container .box1 ul li h4 {
   font-weight: 500;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 20px;
   color: #333;
 }
@@ -224,23 +237,8 @@ header #gnb li:nth-of-type(5) a{
   padding: 12px;
   float: left;
 }
-.art2 .wrapper .box h2 {
-  font-weight: 700;
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 48px;
-  color: #000;
-  margin-bottom: 40px;
-}
-.art2 .wrapper .box h3 {
-  font-weight: 700;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 22px;
-  color: #333;
-  margin-bottom: 15px;
-}
 .art2 .wrapper .box p {
   font-weight: 300;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
   color: #424242;
   margin-bottom: 40px;
@@ -248,7 +246,6 @@ header #gnb li:nth-of-type(5) a{
 .art2 .wrapper .box a {
   display: block;
   width: 170px;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -289,14 +286,12 @@ header #gnb li:nth-of-type(5) a{
 }
 .art2 .wrapper .scrollBox .slideBox li h4 {
   font-weight: 500;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 20px;
   color: #333;
   font-size: 18px;
 }
 .art2 .wrapper .scrollBox .slideBox li h5 {
   font-weight: 400;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 14px;
   color: #727272;
   font-size: 14px;
@@ -320,23 +315,10 @@ header #gnb li:nth-of-type(5) a{
   float: left;
 }
 .art3 .wrapper .box h2 {
-  font-weight: 700;
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 48px;
-  color: #000;
-  margin-bottom: 40px;
   margin-top: 10px;
-}
-.art3 .wrapper .box h3 {
-  font-weight: 700;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 22px;
-  color: #333;
-  margin-bottom: 15px;
 }
 .art3 .wrapper .box p {
   font-weight: 300;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
   color: #424242;
   margin-bottom: 32px;
@@ -344,7 +326,6 @@ header #gnb li:nth-of-type(5) a{
 .art3 .wrapper .box a {
   display: block;
   width: 130px;
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -376,10 +357,6 @@ header #gnb li:nth-of-type(5) a{
   color: #727272;
 }
 .art3 .wrapper .container h3 {
-  font-weight: 700;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 22px;
-  color: #333;
   font-weight: 500;
   margin: 4px 0 10px 0;
 }
@@ -398,7 +375,7 @@ header #gnb li:nth-of-type(5) a{
 
 .art4 {
   width: 100%;
-  padding-top: 160px;
+  padding-top: 144px;
 }
 .art4 .wrapper {
   width: 1230px;
@@ -408,11 +385,7 @@ header #gnb li:nth-of-type(5) a{
   padding: 16px;
 }
 .art4 .wrapper .topbox h2 {
-  font-weight: 700;
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 48px;
-  color: #000;
-
+  margin: 0;
   padding-right: 25px;
   float: left;
 }
@@ -470,12 +443,20 @@ header #gnb li:nth-of-type(5) a{
   font-size: 16px;
 }
 
-.art5 { width: 100%; padding-top: 160px; }
-.art5 .wrapper {  }
+/* article 5 */
+
+.art5 { width: 100%; padding: 148px 0; }
+.art5 .wrapper {
+  width: 1220px;
+  margin: 0 auto;
+
+  display: flex;
+
+ }
 .art5 .wrapper .box1 { 
   width: 714px; padding: 12px;
  }
-.art5 .wrapper .box1 h2 { 
+.art5 .wrapper .box1 h2, .art5 .wrapper .box2 h2 { 
   font-weight: 700;
   font-family: "Red Hat Display", sans-serif;
   font-size: 42px;
@@ -484,29 +465,207 @@ header #gnb li:nth-of-type(5) a{
 .art5 .wrapper .box1 .container { 
   border: 1px #eee solid; border-radius: 7px;
   width: 660px; padding: 24px;
+  margin-bottom: 20px;
+ }
+ .art5 .wrapper .box1 .container .txt {
+  width: 320px;
+  padding-left: 24px;
+  float: left;
  }
  .art5 .wrapper .box1 .container img {
-  width: 258px; height: 156px; object-fit: cover;
+  width: 258px; height: 156px; object-fit: cover; float: left;
  }
-.art5 .wrapper .box1 .container h3 {  }
-.art5 .wrapper .box1 .container p {  }
-.art5 .wrapper .box1 .container a {  }
-.art5 .wrapper .box1 .follow {  }
-.art5 .wrapper .box1 .follow h6 {  }
-.art5 .wrapper .box1 .follow h3 {  }
-.art5 .wrapper .box1 .follow a {  }
+.art5 .wrapper .box1 .container h3 { 
+  font-size: 20px; font-weight: 500; margin-bottom: 7px;
+ }
+.art5 .wrapper .box1 .container p { font-size: 16px; color: #727272; margin-bottom: 15px; }
+.art5 .wrapper .box1 .container a {
+  display: block;
+  width: 150px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #003DAB;
+  background: url(./images/mainPage_img/blueArrow.png) no-repeat right 50% / 16px;
+ }
+ .art5 .wrapper .box1 .follow .box {
+  background: url(./images/mainPage_img/email_icon.png) no-repeat left center / 30px ;
+  padding-left: 40px;
+ }
+
+.art5 .wrapper .box1 .follow {
+  width: 660px;
+  background-color: #F0F3FA; border-radius: 7px;
+  display: flex; padding: 18px 24px;
+  flex-flow: nowrap;
+  justify-content: space-between;
+}
+.art5 .wrapper .box1 .follow .box h6 { color: #486DB2; font-size: 14px;  }
+.art5 .wrapper .box1 .follow .box h3 { font-weight: 500; font-size: 20px;  }
+.art5 .wrapper .box1 .follow a { 
+  display: block;
+  width: 122px;
+  text-decoration: none;
+  font-size: 16px; font-weight: 500; color: #003DAB;
+  background-color: #fff; border-radius: 7px;
+  padding: 10px 20px;
+  background: #fff url(./images/mainPage_img/blueArrow.png) no-repeat 80% 50% / 18px;
+  box-shadow: 1px 1px 10px #ddd;
+ }
 .art5 .wrapper .box2 { 
-  width: 510px; padding: 12px;
+  width: 522px; padding: 12px;
  }
-.art5 .wrapper .box2 h2 { 
-  font-weight: 700;
+.art5 .wrapper .box2 .instagramBox { 
+  display: flex;
+  flex-flow: row wrap;
+  width: 482px; height: 332px;
+  justify-content: space-between;
+ }
+.art5 .wrapper .box2 .instagramBox li a { 
+  display: block;
+  width: 150px; height: 150px; border-radius: 7px; overflow: hidden;
+ }
+ .art5 .wrapper .box2 .instagramBox li:first-child a:hover::before {
+  content: url(./images/mainPage_img/insta-hover1.png);
+ }
+ .art5 .wrapper .box2 .instagramBox li:nth-child(2) a:hover::before {
+  content: url(./images/mainPage_img/insta-hover2.png);
+ }
+ .art5 .wrapper .box2 .instagramBox li:nth-child(3) a:hover::before {
+  content: url(./images/mainPage_img/insta-hover3.png);
+ }
+ .art5 .wrapper .box2 .instagramBox li:nth-child(4) a:hover::before {
+  content: url(./images/mainPage_img/insta-hover4.png);
+ }
+ .art5 .wrapper .box2 .instagramBox li:nth-child(5) a:hover::before {
+  content: url(./images/mainPage_img/insta-hover5.png);
+ }
+ .art5 .wrapper .box2 .instagramBox li:last-child a:hover::before {
+  content: url(./images/mainPage_img/insta-hover6.png);
+ }
+
+
+ /* footer */
+
+ footer {
+  background-color: #222222;
+  width: 100%;
+}
+footer .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+footer .wrapper .marginbox {
+  width: 50px;
+  margin: 0;
+  float: left;
+}
+.footbox1 {
+  width: 510px;
+  float: left;
+  margin: 0 100px 50px 0;
+}
+.footlogo {
+  display: block;
+  width: 500px;
+  font-size: 52px;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 42px;
-  color: #000;
- }
-.art5 .wrapper .box2 ul {  }
-.art5 .wrapper .box2 ul .instagramBox {  }
-.art5 .wrapper .box2 ul .instagramBox li {  }
-.art5 .wrapper .box2 ul .instagramBox li a {  }
+  font-weight: 700;
+  background: url(./images/footer_img/footer_arrow.png) no-repeat 290px center / 40px;
+}
+.footlogo:hover {
+  color: #003DAB;
+  background: url(./images/footer_img/footer_arrowBlue.png) no-repeat 290px center / 40px;
+}
+.footbox1 p {
+  color: #7a7a7a;
+  margin-top: 20px;
+}
+.footNav li {
+  float: left;
+}
+.footNav li a {
+  display: block;
+  width: 150px;
+  border: 1px solid #ddd;
+  padding: 8px 15px;
+  border-radius: 7px;
+  margin: 25px 20px 0 0;
+  font-size: 14px;
+  background: url(./images/footer_img/🦆\ icon\ _Alternate\ External\ Link_.png) no-repeat 90% 50% / 14px;
+}
+.footNav li:nth-child(3) a {
+  background: url(./images/footer_img/🦆\ icon\ _Caret\ Down_.png) no-repeat 90% 50% / 7px;
+}
+.marginbox {
+  width: 100px; height: 50px;
+  background-color: red;
+  float: left;
+}
+.footbox2 {
+  width: 490px;
+  float: left;
+  margin-bottom: 50px;
+}
+.footbox2 {
+  color: #ddd;
+}
+.footSns li {
+  float: left;
+}
+.footSns li a {
+  display: block;
+  width: 36px; height: 36px;
+  background-color: #ddd;
+  margin: 0 10px 30px 0;
+  border-radius: 50%;
+  padding: 8px;
+}
+.footSns li a img {
+  width: 100%; height: 100%;
+  object-fit: contain;
+}
+.footbox2 h3 {
+  color: #ddd;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footbox2 p {
+  color: #7A7A7A;
+  font-size: 14px; font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+.footbox2 a:last-child {
+  font-size: 13px;
+  color: #ddd;
+}
+.copy {
+  width: 100%;
+  color: #7a7a7a;
+  border-top: 1px outset #444;
+  padding: 12px 0;
+}
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.copy p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  float: left;
+}
+.copy a {
+  display: block;
+  font-family: 'Poppins', sans-serif; font-size: 14px;
+  width: 40px;
+  background: url(./images/footer_img/🦆\ icon\ _chevron-up_.png) no-repeat 90% 50% / 6px;
+  float: right;
+}
 
 
